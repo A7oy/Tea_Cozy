@@ -77,3 +77,42 @@ body {
   margin: 0;
   padding: 10px 0;
 }
+
+/**TEA OF THE MONTH**/
+.Heading-Text {
+  text-align: center;
+}
+
+.Tea-Month {
+  position: relative;
+  width: 1000px;
+  height: auto;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Tea-Month h2,
+.Tea-Month h4 {
+  color: seashell;
+}
+
+.picture-row {
+  height: 200px;
+  width: 300px;
+}
+
+.box {
+  padding: 0 15px 0 15px;
+}
+
+.box h4 {
+  text-align: center;
+}
+
+/** LOCATIONS **/
