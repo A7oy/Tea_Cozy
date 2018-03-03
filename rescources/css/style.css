@@ -9,8 +9,6 @@ body {
 }
 
 /** Header CSS **/
-
-
 #logo {
   padding-left: 10px;
   height: 50px;
@@ -26,6 +24,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -42,4 +42,38 @@ body {
 .nav li a {
   text-decoration: underline;
   color: seashell;
+}
+
+/** Body CSS **/
+.Body-Container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/**MISSION**/
+.mission {
+  height: 769px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.mission-text-container {
+  color: seashell;
+  background-color: black;
+  width: 1200px;
+  height: 110px;
+}
+
+.mission-text-container h2,
+.mission-text-container h4 {
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
 }
