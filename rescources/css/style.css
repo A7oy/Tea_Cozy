@@ -116,3 +116,22 @@ body {
 }
 
 /** LOCATIONS **/
+.locations {
+  padding-top: 50px;
+}
+
+.locations-container {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-bottom: 70px;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 500px;
+  width: 1200px;
+}
+
+.locations-container h2 {
+  color: seashell;
+  text-align: center;
+  padding-top: 80px;
+  overflow: hidden;
+}
