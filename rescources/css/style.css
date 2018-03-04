@@ -76,6 +76,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 10px 0;
+  opacity: 0.9;
 }
 
 /**TEA OF THE MONTH**/
@@ -89,6 +90,7 @@ body {
   height: auto;
   padding-top: 50px;
   flex-wrap: wrap;
+  opacity: 0.9;
 }
 
 .box-container {
@@ -113,6 +115,7 @@ body {
 
 .box h4 {
   text-align: center;
+  opacity: 0.9;
 }
 
 /** LOCATIONS **/
@@ -127,11 +130,34 @@ body {
   position: relative;
   height: 500px;
   width: 1200px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.locations-container h2 {
+.locations h2 {
   color: seashell;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 40px;
   overflow: hidden;
+  position: absolute;
+  opacity: 0.9;
 }
+
+.location-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-self: center;
+  color: seashell;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin-top: 70px;
+}
+
+.location-block h3,
+.location-block p {
+  opacity: 0.9;
+}
+/** FOOTER **/
